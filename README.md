@@ -1,34 +1,45 @@
-# note-mark
+# NoteMark
 
-An Electron application with React and TypeScript
+## Overview
 
-## Recommended IDE Setup
+NoteMark is a user-friendly note-taking application built with React and Electron. It provides an intuitive interface that allows users to create, read, update, and delete notes effortlessly.
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Features
 
-## Project Setup
+- Create, read, update, and delete notes
+- Intuitive user interface
+- Built with React and Electron for cross-platform compatibility
 
-### Install
+## Installation
 
-```bash
-$ yarn
+Follow these steps to install NoteMark:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/NoteMark.git
 ```
 
-### Development
+2. Navigate into the project directory:
 
-```bash
-$ yarn dev
-```
+`cd NoteMark`
 
-### Build
+3. Install the dependencies:
 
-```bash
-# For windows
-$ yarn build:win
+`yarn`
 
-# For macOS
-$ yarn build:mac
+### Usage
 
-# For Linux
-$ yarn build:linux
-```
+To start the application, run the following command in your terminal:
+
+`yarn dev`
+
+### Project Structure
+
+- src/: Contains the main source code.
+- components/: Contains reusable React components.
+- hooks/: Contains custom React hooks.
+- store/: Contains Jotai state atoms and logic.
+- utils/: Contains utility functions.
+- main.tsx: The entry point for the Electron main process.
+- preload.ts: Preload script for Electron API.
